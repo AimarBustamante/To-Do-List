@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aimar Bustamante">
+  <meta name="description" content="To do list">
+  <meta name="keywords" content="To do list, to do app">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JS -->
+  <script defer src="js/script.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>ToDo App</title>
+</head> 
+<body class="theme-dark">
+
+  <!-- ** ----- Header ----- ** -->
+  <header class="flex-row">
+
+    <!-- ** ---- Title & toggler ---- ** -->
+
+    <h1>TODO</h1>
+
+    <div class="theme-block">
+      <input type="checkbox" name="theme" id="theme">
+      <label for="theme"></label>
+    </div>
+
+  </header> 
+
+  <!-- ** ----- Main ----- ** -->
+
+  <main>
+
+    <!-- ** ---- New Item ---- ** -->
+
+    <div class="add-new-item flex-row">
+      <span></span>
+      <input type="text" placeholder="Create a new todo..." name="add-item" id="add-item">
+    </div>
+
+    <!-- ** ---- Content---- ** -->
+
+    <section class="content">
+
+      <ul>
+        <li class="flex-row">
+          <label class="list-item">
+            <input type="checkbox" name="todoItem1">
+            <span class="checkmark"></span>
+            <span class="text">Text 1</span>
+          </label>
+          <span class="remove"></span>
+        </li>
+      </ul>
+
+      <ul>
+        <li class="flex-row">
+          <label class="list-item">
+            <input type="checkbox" name="todoItem2">
+            <span class="checkmark"></span>
+            <span class="text">Text 2</span>
+          </label>
+          <span class="remove"></span>
+        </li>
+      </ul>
+
+      <ul>
+        <li class="flex-row"> 
+          <label class="list-item">
+            <input type="checkbox" name="todoItem3">
+            <span class="checkmark"></span>
+            <span class="text">Text 3</span>
+          </label>
+          <span class="remove"></span>
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- ** ---- Bottom Items ---- ** -->
+
+    <div class="bottom-items flex-row">
+
+      <div class="items-left"><span>2</span> items left</div>
+      <div class="filter flex-row">
+
+        <label>
+          <input type="radio" name="filter" id="all" checked>
+          <span>All</span>
+        </label>
+
+        <label>
+          <input type="radio" name="filter" id="active">
+          <span>Active</span>
+        </label>
+
+        <label>
+          <input type="radio" name="filter" id="completed">
+          <span>Completed</span>
+        </label>
+
+      </div>
+
+      <span class="clear">Clear Completed</span>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <section class="attribution">
+
+      <p>
+        Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      </p> 
+  
+      <p>
+        Coded by <a class="attribution-link" href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer">Aimar Bustamante</a>.
+      </p>
+  
+    </section> 
+
+  </footer>
+  
+</body>
+</html>
