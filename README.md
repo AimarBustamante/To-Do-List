@@ -20,4 +20,4 @@
 ## Author
 
 - Website - [Aimar Bustamante](https://aimarbusta.netlify.app/)
-- Frontend Mentor - [@AimarBustamante](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@AimarBustamante](https://www.frontendmentor.io/profile/AimarBustamante)
