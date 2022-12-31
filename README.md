@@ -6,7 +6,7 @@
 
 ### Links
 
-- Solution: https://www.frontendmentor.io/solutions/todo-app-_PcezZLYyp
+- Solution: https://www.frontendmentor.io/solutions/responsive-landing-paga-using-responsive-design-gris-and-flexbox-35UYC4sErk
 - Live Site: https://aimarbustamante.github.io/To-Do-List/
 
 ## My process
